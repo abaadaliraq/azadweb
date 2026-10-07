@@ -1,6 +1,5 @@
 import { TopBar } from "@/components/layout/TopBar";
 import { Hero } from "@/components/sections/Hero";
-import { IntroLoader } from "@/components/ui/IntroLoader";
 import { I18nProvider } from "@/lib/i18n";
 import { Footer } from "@/src/components/layout/Footer";
 import { AbaadIntro } from "@/src/components/sections/AbaadIntro";
@@ -12,7 +11,6 @@ import { JourneyIntro } from "@/src/components/sections/JourneyIntro";
 export default function Home() {
   return (
     <I18nProvider>
-      <IntroLoader />
       <TopBar />
       <main>
         <Hero />

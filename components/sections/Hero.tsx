@@ -27,7 +27,6 @@ export function Hero() {
 
       <div className="hero-frame">
         <div className="hero-index" aria-hidden="true">
-          <span>01</span>
           <span>{t.hero.yearLabel}</span>
         </div>
 
